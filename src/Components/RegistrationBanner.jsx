@@ -7,11 +7,11 @@ const RegistrationBanner = () => {
       className="main-banner bg-cover bg-center h-screen "
       style={{ backgroundImage: `url(${bannerimg})` }}
     >
-<div className="main-banner bg-black bg-opacity-65 " >
+<div className="main-banner bg-black bg-opacity-65 h-[605px] " >
       <div className="content text-center flex items-center justify-center flex-col py-52  ">
       <h1 className='text-white text-md md:text-4xl font-[800] font-sans mt-10 mb-4 '>REGISTRATION NOW TO GET MORE DEALS</h1>
       <p className='text-white text-2xl  mb-10 font-["Merriweather"] ' >WHERE HEALTH, BEAUTY AND FITNESS MEET.</p>
-      <button  className='border-[3px] border-yellow-800 text-3xl py-2 px-4 text-white font-["Merriweather"]' > Appoinment</button>
+      <button  className='border-[3px] border-yellow-800 text-3xl py-2 px-4 text-white font-["Merriweather"] uppercase ' > Appoinment</button>
     </div>
     </div>
     </div>

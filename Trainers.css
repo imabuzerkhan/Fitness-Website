@@ -1,0 +1,28 @@
+.trainer-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.trainer-image {
+  transition: transform 0.3s ease;
+}
+
+.trainer-info {
+  position: absolute;
+  bottom: -100%; 
+  left: 0;
+  width: 100%;
+  background: rgb(74, 74, 74); 
+  color: white;
+  text-align: center;
+  padding: 20px 10px ;
+  transition: bottom 0.3s ease;
+}
+
+.trainer-slide:hover .trainer-info {
+  bottom: 0; 
+}
+
+.trainer-slide:hover .trainer-image {
+  transform: scale(1.1); 
+}
