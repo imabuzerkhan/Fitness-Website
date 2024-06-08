@@ -3,7 +3,7 @@ import React from 'react'
 const Plan = () => {
   return (
    <>
-   <div className="main-plan py-10 px-20  ">
+   <div className="main-plan py-10 px-10 md:px-20  ">
     <div className="heading-plan text-center ">
       <h1 className='uppercase text-yellow-800 text-4xl font-["Kanit"] font-[800] ' >Our plan</h1>
       <p className='text-xl text-black font-["Merriweather"] my-1 ' >Purchase now and get benifits</p>

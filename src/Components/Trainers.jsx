@@ -24,14 +24,14 @@ const Trainers = () => {
   };
 
   return (
-    <div className="main-trainers px-20 mt-24 mb-10 ">
+    <div className="main-trainers px-5  md:px-20 mt-24 mb-10 ">
       <div className="trainers flex items-center justify-between">
-        <div className="right-text">
+        <div className="right-text text-center md:text-none px-12 md:px-0 ">
           <h1 className="text text-3xl text-yellow-800 font-[800] font-['Kanit']">OUR TEAM</h1>
           <p className="textdes text-xl text-black font-['Merriweather'] my-2">TRAIN WITH EXPERTS</p>
         </div>
         <div className="lefttext">
-          <button className='uppercase bg-yellow-800 py-2 px-3 text-white rounded font-["Kanit"]'>Appointment</button>
+          <button className='uppercase hidden md:block bg-yellow-800 py-2 px-3 text-white rounded font-["Kanit"]'>Appointment</button>
         </div>
       </div>
       <div className="image-container mt-8">
@@ -39,43 +39,43 @@ const Trainers = () => {
           <div className="trainer-slide px-2 outline-none ">
             <img src={trainerimg} alt="Trainer 1" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className=' text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className='text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
           <div className="trainer-slide px-2">
             <img src={trainerimg2} alt="Trainer 2" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className='text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className=' text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
           <div className="trainer-slide px-2">
             <img src={trainerimg3} alt="Trainer 3" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className=' text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className=' text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
           <div className="trainer-slide px-2">
             <img src={trainerimg4} alt="Trainer 4" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className='text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className='text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
           <div className="trainer-slide px-2">
             <img src={trainerimg5} alt="Trainer 5" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className='text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className='text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
           <div className="trainer-slide px-2">
             <img src={trainerimg6} alt="Trainer 6" className="trainer-image w-full h-auto rounded-xl" />
              <div className="trainer-info">
-              <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>
-              <h4 className='text-xl font-serif text-white ' >Gym trainer</h4>
+              <h1 className='text-sm md:text-2xl font-["Kanit"] font-[800] ' >John</h1>
+              <h4 className='text-sm md:text-xl font-serif text-white ' >Gym trainer</h4>
             </div>
           </div>
         </Slider>

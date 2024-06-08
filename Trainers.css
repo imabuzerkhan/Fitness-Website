@@ -18,6 +18,11 @@
   padding: 20px 10px ;
   transition: bottom 0.3s ease;
 }
+@media  screen and (max-width:768px) {
+  .trainer-info {
+    padding: 5px 10px;
+  }
+}
 
 .trainer-slide:hover .trainer-info {
   bottom: 0; 
