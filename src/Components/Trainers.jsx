@@ -36,7 +36,7 @@ const Trainers = () => {
       </div>
       <div className="image-container mt-8">
         <Slider {...settings}>
-          <div className="trainer-slide px-2">
+          <div className="trainer-slide px-2 outline-none ">
             <img src={trainerimg} alt="Trainer 1" className="trainer-image w-full h-auto rounded-xl" />
             <div className="trainer-info">
               <h1 className='text-2xl font-["Kanit"] font-[800] ' >John</h1>

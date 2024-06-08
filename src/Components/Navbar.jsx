@@ -4,14 +4,14 @@ import { Links} from '/src/Data/Data.js'
 const Navbar = () => {
   return (
   <>
-  <nav className='bg-white shadow-lg py-4 px-10 w-full sticky top-0 bottom-0   '>
+  <nav className='bg-white shadow-lg py-4 px-10 w-full sticky top-0 bottom-0  z-[999] '>
     <div className="main-container flex items-center justify-between ">
       <div className="logo">
         <Link to='/'>
         <h3 className='text-4xl font-[800] text-yellow-800 font-["Merriweather"]  '>Fitness</h3>
         </Link>
       </div>
-      <ul className='flex gap-6  text-l font-["Kanit"]    '>
+      <ul className=' hidden md:flex gap-6  text-l font-["Kanit"]    '>
    {
    Links.map(({name , path} , index )=>{
 return(
