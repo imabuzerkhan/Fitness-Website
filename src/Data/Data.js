@@ -85,6 +85,9 @@ const fitnessData = [
 ];
 
 
+
+
+
 export default fitnessData;
 
 import { FaReact } from "react-icons/fa6";
@@ -111,3 +114,34 @@ export const value = [
     description: "hello everyone it is our value section so please follow us"
   }
 ];
+
+
+
+
+
+export const choose = [
+  {
+    index: 1,
+    title: "Modern equipment",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.",
+    icon: "FaDumbbell",
+  },
+  {
+    index: 2,
+    title: "Healthy nutrition plan",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.",
+    icon: "FaAppleAlt",
+  },
+  {
+    index: 3,
+    title: "Professional training plan",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.",
+    icon: "FaClipboardList",
+  },
+  {
+    index: 4,
+    title: "Unique to your needs",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.",
+    icon: "FaBullseye",
+  },
+]
