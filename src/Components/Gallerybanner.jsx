@@ -6,11 +6,16 @@ const Gallerybanner = () => {
    <>
    <div className="main-banner w-full   " >
    
-    <div className="image  bg-cover w-full h-96 bg-no-repeat  "
-    style={{backgroundImage: `url(${bannerimg})`}}
-    >
+   <div
+          className="relative bg-cover bg-center h-96 md:h-[500px] w-full flex items-center justify-center"
+          style={{
+            backgroundImage: `url(${bannerimg})`
+          }}
+        >
+                    <div className="absolute inset-0 bg-black opacity-50"></div>
+
        
-<div className="content text-center py-28 " >
+<div className=" relative content text-center py-28 " >
 <Content    
 title = "Welcome to Our Gallery Showcase"
 description="Discover the beauty in every moment with our gallery of captured memories."
