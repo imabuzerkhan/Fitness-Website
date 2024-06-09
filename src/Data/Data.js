@@ -44,7 +44,7 @@ import { FaRunning, FaDumbbell,   FaBiking, FaFire, FaHeartbeat, FaPeace, FaCros
 const fitnessData = [
   {
     title: "Cardio Workout",
-    description: "High-intensity exercises to get your heart rate up quickly.",
+    description: "High-intensity exercises to get your heart rate up quickly and fastly .",
     icon: 'FaRunning'
   },
   {
@@ -64,7 +64,7 @@ const fitnessData = [
   },
   {
     title: "Cycling",
-    description: "Endurance and leg strength workout on a bike for health.",
+    description: "Endurance and leg strength workout on a bike for health tasty.",
     icon: 'FaBiking'
   },
   {
