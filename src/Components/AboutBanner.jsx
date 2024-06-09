@@ -6,7 +6,7 @@ const AboutBanner = () => {
    <>
    <div className="main-banner w-full   " >
    
-    <div className="image w-full h-96 bg-no-repeat  "
+    <div className="image bg-cover md:bg-none w-full h-96 bg-no-repeat  "
     style={{backgroundImage: `url(${bannerimg})`}}
     >
        

@@ -10,11 +10,7 @@
     path: "/about",
     index: 2
   },
-  {
-  name: "Contact",
-  path: "/contact",
-  index: 3
-},
+ 
 {
   name: "Gallery",
   path: "/gallery",
@@ -27,10 +23,16 @@
   index: 5
 
 },
+
 {
   name: "Trainers",
   path: "/trainers",
   index:1
+},
+{
+  name: "Contact",
+  path: "/contact",
+  index: 3
 },
 ]
  

@@ -7,7 +7,7 @@ import Contact from "./Pages/contact/Contact";
 import Plans from "./Pages/Plans/Plans";
 import Trainers from "./Pages/trainers/Trainers";
 import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+
 
 function App() {
   return (

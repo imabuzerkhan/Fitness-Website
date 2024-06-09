@@ -1,10 +1,15 @@
 import React from 'react'
-
+import Gallerybanner from '../../Components/Gallerybanner'
+import Footer from '../../Components/Footer'
+import Galleyimg from '../../Components/Galleyimg'
 const Gallery = () => {
   return (
-    <div>
-      
-    </div>
+   <>
+   <Gallerybanner></Gallerybanner>
+<Galleyimg></Galleyimg>
+   <Footer></Footer>
+   
+   </>
   )
 }
 
