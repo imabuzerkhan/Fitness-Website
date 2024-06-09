@@ -1,10 +1,13 @@
 import React from 'react'
-
-const Trainers = () => {
+import Trainers_banner from '../../Components/Trainers-banner'
+import Footer from '../../Components/Footer'
+ const Trainers = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Trainers_banner></Trainers_banner>
+    <Footer></Footer>
+    
+    </>
   )
 }
 
