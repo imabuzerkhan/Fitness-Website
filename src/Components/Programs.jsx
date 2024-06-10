@@ -23,7 +23,7 @@ const Programs = () => {
       <h1 className='font-["Kanit"] text-2xl md:text-4xl font-[800] flex items-center gap-2'>
         <FaCrown className='text-yellow-800 bg-white shadow-custom  cursor-pointer p-1 rounded-md text-3xl  md:text-4xl ' />Programs
       </h1>
-      <div className="main-card grid grid-cols-1 md:grid-cols-4 gap-3 px-5 md:px-12 mt-8 items-center justify-center  ">
+      <div className="main-card grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-4 gap-5 px-5 md:px-12  mt-8 items-center justify-center  ">
         {fitnessData.map(({ title, description, icon }, index) => (
           <div key={index} className="card bg-yellow-800 shadow-xl pt-4 pb-4 px-5 rounded-tr-3xl  h-auto w-64 md:w-none     ">
             <div className="icon text-4xl mb-4 text-black  my-2 cursor-pointer  ">{iconMap[icon]}</div>
