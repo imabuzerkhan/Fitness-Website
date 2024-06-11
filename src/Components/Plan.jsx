@@ -9,7 +9,7 @@ const Plan = () => {
       <p className='text-xl text-black font-["Merriweather"] my-1 ' >Purchase now and get benifits</p>
     </div>
     <div className="main-plan-card flex items-center justify-center gap-10 flex-wrap mt-10 ">
-      <div className="card-plan bg-white shadow-custom px-4 md:px-8 py-6  md:w-[300px] text-center   ">
+      <div className="card-plan bg-white shadow-custom px-4 md:px-8 py-6  w-[300px] text-center   ">
         <h1 className='text-4xl font-["Kanit"] mb-4 font-[800] text-black ' >Monthly pack</h1>
 <div className="span mb-4  ">
   <span className=' text-2xl md:text-4xl font-[800] font-["Merriweather"] text-yellow-800 mb-1 '>NPR 3000</span>

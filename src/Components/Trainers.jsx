@@ -26,8 +26,8 @@ const Trainers = () => {
   return (
     <div className="main-trainers px-5  md:px-20 mt-24 mb-10 ">
       <div className="trainers flex items-center justify-between">
-        <div className="right-text text-center md:text-none px-12 md:px-0 ">
-          <h1 className="text text-3xl text-yellow-800 font-[800] font-['Kanit']">OUR TEAM</h1>
+        <div className="right-text text-center  md:text-none px-16 md:px-0 ">
+          <h1 className="text text-3xl  text-yellow-800 font-[800] font-['Kanit']">OUR TEAM</h1>
           <p className="textdes text-xl text-black font-['Merriweather'] my-2">TRAIN WITH EXPERTS</p>
         </div>
         <div className="lefttext">
