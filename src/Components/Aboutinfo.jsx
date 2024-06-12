@@ -13,7 +13,7 @@ const Aboutinfo = () => {
         </div>
         <div className="right  ">
           <h1 className='text-bold text-yellow-800 text-sm md:text-xl font-[800] mb-4  ' >Join Our Community for Transformative Fitness Journey.</h1>
-          <p className='text-gray-800 font-serif w-[256px] xs:w-[400px] sm:w-[500px] md:w-[456px]  text-[11px] md:text-[17px] ' >At Fitness Gym, we are dedicated to helping you transform your life through fitness. Our passionate team of experts is committed to providing personalized guidance, innovative training programs, and a welcoming environment. Whether you're new to fitness or an experienced athlete, our state-of-the-art facilities and supportive community are here to inspire and motivate you every step of the way. Discover the difference at Fitness Gym and take the first step towards a healthier, happier you.</p>
+          <p className='text-gray-800 font-serif   text-[11px] md:text-[17px] ' >At Fitness Gym, we are dedicated to helping you transform your life through fitness. Our passionate team of experts is committed to providing personalized guidance, innovative training programs, and a welcoming environment. Whether you're new to fitness or an experienced athlete, our state-of-the-art facilities and supportive community are here to inspire and motivate you every step of the way. Discover the difference at Fitness Gym and take the first step towards a healthier, happier you.</p>
         </div>
       </div>
     </div>

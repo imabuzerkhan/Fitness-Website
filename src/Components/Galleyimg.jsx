@@ -20,13 +20,13 @@ const Galleyimg = () => {
         
       <img src={Galleryimg1} alt="" className='rounded-xl' /> 
       <img src={Galleryimg6} alt=""  className='rounded-xl' />
-<img src={Galleryimg7} alt="" className='rounded-xl' />
-<img src={Galleryimg2} alt="" className='rounded-xl' />
-<img src={Galleryimg3} alt="" className='rounded-xl' />
-<img src={Galleryimg4} alt="" className='rounded-xl' />
-<img src={Galleryimg5} alt="" className='rounded-xl' />
-<img src={Galleryimg2} alt="" className='rounded-xl' />
-<img src={Galleryimg5} alt="" className='rounded-xl' />
+<img src={Galleryimg7} alt="" className='rounded-xl ' />
+<img src={Galleryimg2} alt="" className='rounded-xl sm:w-[641px]  ' />
+<img src={Galleryimg3} alt="" className='rounded-xl sm:w-[641px]  ' />
+<img src={Galleryimg4} alt="" className='rounded-xl sm:w-[641px]  ' />
+<img src={Galleryimg5} alt="" className='rounded-xl sm:w-[641px]  ' />
+<img src={Galleryimg2} alt="" className='rounded-xl sm:w-[641px]   md:w-0 ' />
+<img src={Galleryimg5} alt="" className='rounded-xl sm:w-[641px]  ' />
 
       </div>
     </div>
