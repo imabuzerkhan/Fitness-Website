@@ -12,7 +12,11 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/img/hero/hero-1.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
+      screens: {
+        'xs': '500px',
+         
+      },
     },
   },
   plugins: [],

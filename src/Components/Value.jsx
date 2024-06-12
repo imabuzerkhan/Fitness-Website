@@ -14,7 +14,7 @@ const Value = () => {
           <h2 className='text-4xl font-["Kanit"] font-bold'>Our values</h2>
         </div>
         <p className=' text-[15px]  md:text-md my-4 font-["Merriweather"] text-center md:text-none '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />  Itaque eveniet repudiandae a?</p>
-        <div className="main-card grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+        <div className="main-card grid grid-cols-1  sm:grid-cols-2 gap-5 items-center">
           {value.map(({ title, description, icon: Icon }, index) => (
             <div key={index} className="card bg-yellow-800 py-6 px-4 w-[250px] rounded-tr-3xl rounded-bl-3xl">
               <div className="icon">
