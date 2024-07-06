@@ -5,7 +5,7 @@ import Value from '../../Components/Value'
 import Choose from '../../Components/Choose'
 import RegistrationBanner from '../../Components/RegistrationBanner'
 import Trainers from '../../Components/Trainers'
-import Plan from '../../Components/Plan'
+
 import Footer from '../../Components/Footer'
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
    <Value></Value>
    <RegistrationBanner></RegistrationBanner>
    <Trainers></Trainers>
-   <Plan></Plan>
+
    <Footer></Footer>
 
    </>

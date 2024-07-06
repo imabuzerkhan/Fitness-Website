@@ -19,11 +19,15 @@ const iconMap = {
 
 const Programs = () => {
   return (
-    <div className="main-programs flex items-center justify-center flex-col  py-4  sm:px-10 w-full mt-10 md:mt-20">
-      <h1 className='font-["Kanit"] text-2xl md:text-4xl font-[800] flex items-center gap-2'>
-        <FaCrown className='text-yellow-800 bg-white shadow-custom  cursor-pointer p-1 rounded-md text-3xl  md:text-4xl ' />Programs
+    <>
+    <div className="content md:px-32 mt-16 ">
+       <h1 className='font-["Kanit"] text-2xl md:text-4xl font-[800] flex items-center gap-2'>
+        <FaCrown className='text-yellow-800 bg-white shadow-custom  cursor-pointer p-1 rounded-md text-3xl  md:text-4xl  ' />Programs
       </h1>
-      <div className="main-card grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4 gap-5 px-8  md:px-20 lg:px-12  mt-8 items-center justify-center  ">
+    </div>
+    <div className="main-programs flex items-center justify-center flex-col  py-4  sm:px-10 w-full ">
+     
+      <div className="main-card grid grid-cols-1 sm:grid-cols-2   lg:grid-cols-3 xl:grid-cols-4 gap-5 px-4  md:px-20 lg:px-12  mt-8 items-center justify-center  ">
         {fitnessData.map(({ title, description, icon }, index) => (
           <div key={index} className="card bg-yellow-800  shadow-xl pt-4 pb-4 px-5 rounded-tr-3xl  h-auto w-72 sm:w-60 md:w-64     ">
             <div className="icon text-4xl mb-4 text-black  my-2 cursor-pointer  ">{iconMap[icon]}</div>
@@ -34,6 +38,8 @@ const Programs = () => {
         ))}
       </div>
     </div>
+
+    </>
   );
 };
 
